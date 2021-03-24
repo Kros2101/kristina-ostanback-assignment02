@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 24 20:58:13 CET 2021</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2090 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorATest.absoluteValue()'><b>absoluteValue</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorATest</td>
+<td></td>
+<td>0</td>
+<td>absoluteValue(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorATest.absoluteValueMinus()'><b>absoluteValueMinus</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorATest</td>
+<td></td>
+<td>0</td>
+<td>absoluteValueMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorATest.absoluteValueZero()'><b>absoluteValueZero</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorATest</td>
+<td></td>
+<td>0</td>
+<td>absoluteValueZero(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorATest.cube()'><b>cube</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorATest</td>
+<td></td>
+<td>0</td>
+<td>cube(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorATest.cubeMinus()'><b>cubeMinus</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorATest</td>
+<td></td>
+<td>0</td>
+<td>cubeMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorATest.cubeZero()'><b>cubeZero</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorATest</td>
+<td></td>
+<td>0</td>
+<td>cubeZero(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorTest.testAddition()'><b>testAddition</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAddition(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorTest.testAdditionMinus()'><b>testAdditionMinus</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAdditionMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorTest.testAdditionZero()'><b>testAdditionZero</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAdditionZero(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorTest.testDivision()'><b>testDivision</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testDivision(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorTest.testDivisionMinus()'><b>testDivisionMinus</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testDivisionMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorTest.testDivisionZero()'><b>testDivisionZero</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testDivisionZero(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorATest.testExp()'><b>testExp</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorATest</td>
+<td></td>
+<td>0</td>
+<td>testExp(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorATest.testExpMinus()'><b>testExpMinus</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorATest</td>
+<td></td>
+<td>0</td>
+<td>testExpMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorATest.testExpZero()'><b>testExpZero</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorATest</td>
+<td></td>
+<td>0</td>
+<td>testExpZero(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorTest.testMultiplication()'><b>testMultiplication</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiplication(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorTest.testMultiplicationMinus()'><b>testMultiplicationMinus</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorTest.testMultiplicationZero()'><b>testMultiplicationZero</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationZero(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorATest.testSqrt()'><b>testSqrt</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorATest</td>
+<td></td>
+<td>0</td>
+<td>testSqrt(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorATest.testSqrtMinus()'><b>testSqrtMinus</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorATest</td>
+<td></td>
+<td>0</td>
+<td>testSqrtMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorATest.testSqrtZero()'><b>testSqrtZero</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorATest</td>
+<td></td>
+<td>0</td>
+<td>testSqrtZero(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorATest.testSquare()'><b>testSquare</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorATest</td>
+<td></td>
+<td>0</td>
+<td>testSquare(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorATest.testSquareMinus()'><b>testSquareMinus</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorATest</td>
+<td></td>
+<td>0</td>
+<td>testSquareMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorTest.testSubtraction()'><b>testSubtraction</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSubtraction(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorTest.testSubtractionMinus()'><b>testSubtractionMinus</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)</td></tr>
+<tr>
+<td title='com.nackademin.kristina_ostanback_assignment02.CalculatorTest.testSubtractionZero()'><b>testSubtractionZero</b><br>Test class: com.nackademin.kristina_ostanback_assignment02.CalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionZero(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)</td></tr>
+</table><p>
+</body>
+</html>

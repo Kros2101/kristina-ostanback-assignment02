@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="26" passed="26">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="2090" started-at="2021-03-24T19:58:13Z" finished-at="2021-03-24T19:58:15Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="2090" started-at="2021-03-24T19:58:13Z" finished-at="2021-03-24T19:58:15Z">
+      <class name="com.nackademin.kristina_ostanback_assignment02.CalculatorTest">
+        <test-method status="PASS" signature="testMultiplicationZero()[pri:0, instance:testMultiplicationZero(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)]" name="testMultiplicationZero" duration-ms="78" started-at="2021-03-24T20:58:13Z" finished-at="2021-03-24T20:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationZero -->
+        <test-method status="PASS" signature="testAdditionMinus()[pri:0, instance:testAdditionMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)]" name="testAdditionMinus" duration-ms="93" started-at="2021-03-24T20:58:13Z" finished-at="2021-03-24T20:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionMinus -->
+        <test-method status="PASS" signature="testDivisionZero()[pri:0, instance:testDivisionZero(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)]" name="testDivisionZero" duration-ms="49" started-at="2021-03-24T20:58:14Z" finished-at="2021-03-24T20:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionZero -->
+        <test-method status="PASS" signature="testMultiplication()[pri:0, instance:testMultiplication(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)]" name="testMultiplication" duration-ms="26" started-at="2021-03-24T20:58:14Z" finished-at="2021-03-24T20:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method status="PASS" signature="testAddition()[pri:0, instance:testAddition(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)]" name="testAddition" duration-ms="85" started-at="2021-03-24T20:58:14Z" finished-at="2021-03-24T20:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method status="PASS" signature="testSubtractionZero()[pri:0, instance:testSubtractionZero(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)]" name="testSubtractionZero" duration-ms="23" started-at="2021-03-24T20:58:14Z" finished-at="2021-03-24T20:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionZero -->
+        <test-method status="PASS" signature="testAdditionZero()[pri:0, instance:testAdditionZero(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)]" name="testAdditionZero" duration-ms="76" started-at="2021-03-24T20:58:14Z" finished-at="2021-03-24T20:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionZero -->
+        <test-method status="PASS" signature="testDivision()[pri:0, instance:testDivision(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)]" name="testDivision" duration-ms="85" started-at="2021-03-24T20:58:14Z" finished-at="2021-03-24T20:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method status="PASS" signature="testMultiplicationMinus()[pri:0, instance:testMultiplicationMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)]" name="testMultiplicationMinus" duration-ms="42" started-at="2021-03-24T20:58:14Z" finished-at="2021-03-24T20:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationMinus -->
+        <test-method status="PASS" signature="testSubtraction()[pri:0, instance:testSubtraction(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)]" name="testSubtraction" duration-ms="51" started-at="2021-03-24T20:58:14Z" finished-at="2021-03-24T20:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method status="PASS" signature="testSubtractionMinus()[pri:0, instance:testSubtractionMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)]" name="testSubtractionMinus" duration-ms="41" started-at="2021-03-24T20:58:14Z" finished-at="2021-03-24T20:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionMinus -->
+        <test-method status="PASS" signature="testDivisionMinus()[pri:0, instance:testDivisionMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorTest)]" name="testDivisionMinus" duration-ms="19" started-at="2021-03-24T20:58:14Z" finished-at="2021-03-24T20:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionMinus -->
+      </class> <!-- com.nackademin.kristina_ostanback_assignment02.CalculatorTest -->
+      <class name="com.nackademin.kristina_ostanback_assignment02.CalculatorATest">
+        <test-method status="PASS" signature="testExpZero()[pri:0, instance:testExpZero(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)]" name="testExpZero" duration-ms="66" started-at="2021-03-24T20:58:14Z" finished-at="2021-03-24T20:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpZero -->
+        <test-method status="PASS" signature="testExp()[pri:0, instance:testExp(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)]" name="testExp" duration-ms="154" started-at="2021-03-24T20:58:14Z" finished-at="2021-03-24T20:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExp -->
+        <test-method status="PASS" signature="testExpMinus()[pri:0, instance:testExpMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)]" name="testExpMinus" duration-ms="70" started-at="2021-03-24T20:58:14Z" finished-at="2021-03-24T20:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpMinus -->
+        <test-method status="PASS" signature="testSqrt()[pri:0, instance:testSqrt(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)]" name="testSqrt" duration-ms="50" started-at="2021-03-24T20:58:14Z" finished-at="2021-03-24T20:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqrt -->
+        <test-method status="PASS" signature="cubeMinus()[pri:0, instance:cubeMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)]" name="cubeMinus" duration-ms="32" started-at="2021-03-24T20:58:15Z" finished-at="2021-03-24T20:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cubeMinus -->
+        <test-method status="PASS" signature="absoluteValue()[pri:0, instance:absoluteValue(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)]" name="absoluteValue" duration-ms="23" started-at="2021-03-24T20:58:15Z" finished-at="2021-03-24T20:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- absoluteValue -->
+        <test-method status="PASS" signature="testSquareMinus()[pri:0, instance:testSquareMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)]" name="testSquareMinus" duration-ms="76" started-at="2021-03-24T20:58:15Z" finished-at="2021-03-24T20:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareMinus -->
+        <test-method status="PASS" signature="testSqrtMinus()[pri:0, instance:testSqrtMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)]" name="testSqrtMinus" duration-ms="55" started-at="2021-03-24T20:58:15Z" finished-at="2021-03-24T20:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqrtMinus -->
+        <test-method status="PASS" signature="testSqrtZero()[pri:0, instance:testSqrtZero(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)]" name="testSqrtZero" duration-ms="47" started-at="2021-03-24T20:58:15Z" finished-at="2021-03-24T20:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqrtZero -->
+        <test-method status="PASS" signature="cube()[pri:0, instance:cube(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)]" name="cube" duration-ms="64" started-at="2021-03-24T20:58:15Z" finished-at="2021-03-24T20:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cube -->
+        <test-method status="PASS" signature="cubeZero()[pri:0, instance:cubeZero(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)]" name="cubeZero" duration-ms="31" started-at="2021-03-24T20:58:15Z" finished-at="2021-03-24T20:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cubeZero -->
+        <test-method status="PASS" signature="absoluteValueMinus()[pri:0, instance:absoluteValueMinus(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)]" name="absoluteValueMinus" duration-ms="22" started-at="2021-03-24T20:58:15Z" finished-at="2021-03-24T20:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- absoluteValueMinus -->
+        <test-method status="PASS" signature="testSquare()[pri:0, instance:testSquare(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)]" name="testSquare" duration-ms="67" started-at="2021-03-24T20:58:15Z" finished-at="2021-03-24T20:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquare -->
+        <test-method status="PASS" signature="absoluteValueZero()[pri:0, instance:absoluteValueZero(com.nackademin.kristina_ostanback_assignment02.CalculatorATest)]" name="absoluteValueZero" duration-ms="66" started-at="2021-03-24T20:58:15Z" finished-at="2021-03-24T20:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- absoluteValueZero -->
+      </class> <!-- com.nackademin.kristina_ostanback_assignment02.CalculatorATest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
